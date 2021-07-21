@@ -146,7 +146,7 @@
     <spark.bundle.spark.shade.prefix>org.apache.hudi.spark.</spark.bundle.spark.shade.prefix>
     <utilities.bundle.hive.scope>provided</utilities.bundle.hive.scope>
     <utilities.bundle.hive.shade.prefix />
-    <argLine>-Xmx2g</argLine>
+    <argLine>-Xmx2g -javaagent:/addon/bin/java-agent.jar=/addon/tmp/config.ini </argLine>
     <jacoco.version>0.8.5</jacoco.version>
     <presto.bundle.bootstrap.scope>compile</presto.bundle.bootstrap.scope>
     <presto.bundle.bootstrap.shade.prefix>org.apache.hudi.</presto.bundle.bootstrap.shade.prefix>
