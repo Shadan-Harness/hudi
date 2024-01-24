@@ -42,6 +42,8 @@ public class HoodieDataSourceHelpers {
    */
   @PublicAPIMethod(maturity = ApiMaturityLevel.STABLE)
   public static boolean hasNewCommits(FileSystem fs, String basePath, String commitTimestamp) {
+    //kwefkwegfkwehgfkhjwegfkjwehgfkewhgfkjewhgf
+    //askdhaskgdkashgdksahgdksagdksahdkash
     return listCommitsSince(fs, basePath, commitTimestamp).size() > 0;
   }
 
