@@ -44,6 +44,7 @@ public class HoodieDataSourceHelpers {
   public static boolean hasNewCommits(FileSystem fs, String basePath, String commitTimestamp) {
     //kwefkwegfkwehgfkhjwegfkjwehgfkewhgfkjewhgf
     //askdhaskgdkashgdksahgdksagdksahdkash
+    //skhfgjdshgfkasdhgfkjdahgfkjsdhgfkjdshgfgkjhsdgfhkdshgf
     return listCommitsSince(fs, basePath, commitTimestamp).size() > 0;
   }
 
