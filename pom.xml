@@ -305,6 +305,7 @@
         <version>${maven-surefire-plugin.version}</version>
         <configuration>
           <argLine>@{argLine}</argLine>
+          <argLine>${harnessArgLine}  @{argLine} </argLine>
           <systemPropertyVariables>
             <log4j.configuration>
               ${surefire-log4j.file}
