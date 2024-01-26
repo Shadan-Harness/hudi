@@ -24,7 +24,7 @@ import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hudi.hadoop.HoodieParquetInputFormat;
 import org.apache.hudi.hadoop.realtime.HoodieParquetRealtimeInputFormat;
-
+//SGDKASGDSAKGDKSADGKAHSDGASHGDJSAHGDAJSHGDJSAGDJASGDAJSGDASHDASD
 public class HoodieCombineHiveInputFormat<K extends WritableComparable, V extends Writable>
     extends org.apache.hudi.hadoop.hive.HoodieCombineHiveInputFormat<K, V> {
 
