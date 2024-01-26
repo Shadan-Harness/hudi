@@ -318,7 +318,6 @@
         <version>${maven-failsafe-plugin.version}</version>
         <configuration>
           <skip>${skipITs}</skip>
-          <argLine>${harnessArgLine}  @{argLine} </argLine>
         </configuration>
       </plugin>
       <plugin>
