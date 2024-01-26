@@ -35,6 +35,7 @@ public class HoodieCombineHiveInputFormat<K extends WritableComparable, V extend
 
   @Override
   protected String getParquetRealtimeInputFormatClassName() {
+      //skfagdkjhasgdkjhsgadjkahsgdjkahsdgjkhsad
     return HoodieRealtimeInputFormat.class.getName();
   }
 
