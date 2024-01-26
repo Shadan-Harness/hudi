@@ -304,7 +304,6 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven-surefire-plugin.version}</version>
         <configuration>
-          <argLine>@{argLine}</argLine>
           <argLine>${harnessArgLine}  @{argLine} </argLine>
           <systemPropertyVariables>
             <log4j.configuration>
@@ -319,7 +318,7 @@
         <version>${maven-failsafe-plugin.version}</version>
         <configuration>
           <skip>${skipITs}</skip>
-          <argLine>@{argLine}</argLine>
+          <argLine>${harnessArgLine}  @{argLine} </argLine>
         </configuration>
       </plugin>
       <plugin>
