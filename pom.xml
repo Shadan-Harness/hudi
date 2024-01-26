@@ -384,7 +384,7 @@
         <version>${maven-failsafe-plugin.version}</version>
         <configuration>
           <skip>${skipITs}</skip>
-          <argLine> ${harnessArgLine} @{argLine}</argLine>
+          <argLine>@{argLine}</argLine>
           <useSystemClassLoader>false</useSystemClassLoader>
           <systemPropertyVariables>
             <log4j.configurationFile>${surefire-log4j.file}</log4j.configurationFile>
@@ -589,6 +589,7 @@
           <version>${maven-surefire-plugin.version}</version>
           <configuration>
             <rerunFailingTestsCount>3</rerunFailingTestsCount>
+            <argLine> @{argLine}</argLine>
             <argLine> ${harnessArgLine} @{argLine}</argLine>
             <trimStackTrace>false</trimStackTrace>
             <systemPropertyVariables>
