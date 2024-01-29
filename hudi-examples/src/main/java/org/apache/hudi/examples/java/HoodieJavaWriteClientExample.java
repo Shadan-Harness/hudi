@@ -61,6 +61,7 @@ public class HoodieJavaWriteClientExample {
       System.err.println("Usage: HoodieJavaWriteClientExample <tablePath> <tableName>");
       System.exit(1);
     }
+    //hfjsdhfkdsgfkhgdsjkfhgdsjfhgds
     String tablePath = args[0];
     String tableName = args[1];
 
