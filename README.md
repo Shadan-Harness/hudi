@@ -17,7 +17,7 @@
 
 # Apache Hudi
 Apache Hudi (pronounced Hoodie) stands for `Hadoop Upserts Deletes and Incrementals`. 
-Hudi manages the storage of large analytical datasets on DFS (Cloud stores, HDFS or any Hadoop FileSystem compatible storage).kkkk
+Hudi manages the storage of large analytical datasets on DFS (Cloud stores, HDFS or any Hadoop FileSystem compatible storage).kkkkk
 
 <https://hudi.apache.org/>
 
